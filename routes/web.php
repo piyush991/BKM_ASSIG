@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('/user','MainnController@p_user');
+Route::post('/com_user','MainnController@c_user');
